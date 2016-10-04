@@ -1,3 +1,6 @@
+
+
+
 func playerDidMove(_ direction: String) {
     if direction == "up" ||
        direction == "down" ||
@@ -41,6 +44,11 @@ let direction2: Direction = .down
 var direction3: Direction = .right
 
 let direction = Direction.left
+
+var direction4: Direction
+direction4 = .right
+
+
 
 func playerDidMove(_ direction: Direction) {
     print("Player moved \(direction.excited)")
